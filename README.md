@@ -1,12 +1,12 @@
 # Spring Boot Java Challenge
 
-This is my solution to this [repo](https://github.com/ada-school/spring-boot-java-challenge).
+This is my solution to the [Ada School's Spring Boot Java Challenge](https://github.com/ada-school/spring-boot-java-challenge).
 
 ## Directions
 
 ### Coding Challenge 
 
-A bus company wants to start using technology and allow their users to book online tickets. Please help them build a [REST API Level 2](https://martinfowler.com/articles/richardsonMaturityModel.html#level2)(preferrable) that lets them control their trip bookings, supporting the following operations:
+A bus company wants to start using technology and allow their users to book online tickets. Please help them build a [REST API Level 2](https://martinfowler.com/articles/richardsonMaturityModel.html#level2) (preferrable) that lets them control their trip bookings, supporting the following operations:
 * Create a new booking with the following information: name, email, origin, destination, departure date and time and duration.
 * Update an existing booking
 * Find a booking using its ID.
@@ -34,7 +34,7 @@ A bus company wants to start using technology and allow their users to book onli
 - This [article](https://spring.io/blog/2021/11/29/spring-data-mongodb-relation-modelling) gives an overview on how to use `DBRefs` and `@DocumentReference` to replace embedded documents. 
 - I decided to take an approach similar to the article.  
 - Added basic CORS config versus having to annotate methods or controllers.
-- Debatable if `final` to parameters is really necessary. It doesn't really hurt, and it helps make you more deliberate about what you are doing in the code.
+- Debatable if adding `final` to parameters is really necessary. It doesn't really hurt, and it helps make you more deliberate about what you are doing in the code.
 
 ## Continued Development
 
@@ -62,8 +62,8 @@ A bus company wants to start using technology and allow their users to book onli
 - [Medium](https://medium.com/@beheradebananda000/mongodb-vs-mongodb-srv-whats-the-difference-15d0baa1a1a9) - mongodb vs mongodb srv whats the difference
 - [Blog](https://alexbevi.com/blog/2023/11/13/querysrv-errors-when-connecting-to-mongodb-atlas/) - querysrv errors when connecting to mongodb atlas
 - [Baeldung](https://www.baeldung.com/spring-profiles) - spring profiles
-- [YouTube](https://www.youtube.com/watch?v=ORVcw6bQ0z4)
-- [YouTube](https://www.youtube.com/watch?v=G6FRdtyg1AE)
+- [YouTube](https://www.youtube.com/watch?v=ORVcw6bQ0z4) - Spring Boot MongoDB CRUD 2024 | REST API Operations Tutorial
+- [YouTube](https://www.youtube.com/watch?v=G6FRdtyg1AE) - MongoDB CRUD operation using Springboot
 - [Stack Overflow](https://stackoverflow.com/questions/56913429/how-to-create-an-id-within-the-embedded-document-using-mongodb-and-spring-data) - how to create an id within the embedded document using mongodb and spring data
 - [Baeldung](https://www.baeldung.com/spring-boot-mongodb-auto-generated-field) - spring bot mongodb auto generated field
 - [Stack Overflow](https://stackoverflow.com/questions/42087787/how-to-generate-uuid-using-spring-annotations) - how to generate uuid using spring annotations
